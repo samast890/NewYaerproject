@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are My Favorite Song 🎵</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #99ccff, #66b3ff);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .heading {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .message {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .heart {
+            font-size: 100px;
+            animation: pulse 1s infinite alternate;
+        }
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+        .audio-player {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">You Are My Favorite Song 🎵</div>
+        <div class="message">
+            ""
+        </div>
+        <div class="Watcho">💖</div>
+        <div class="audio-player">
+
+            <audio controls autoplay>
+                <source src="MP3Folder/Song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+
+
+        </div>
+    </div>
+</body>
+</html>
